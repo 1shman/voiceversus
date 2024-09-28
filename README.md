@@ -5,12 +5,12 @@
 
 ## Features
 
-1. **Speech-to-Text Debates**: 
+1. **Speech-to-Text Debates**:
    - Users debate with each other using their voice, and the platform automatically transcribes the speech to text.
-   
+
 2. **Timed Speaking Turns**:
    - Each user gets 1 minute to present their argument before switching to the other participant.
-   
+
 3. **Live Transcription**:
    - After each turn, a transcription of the spoken words is displayed on the screen, allowing everyone to follow along
 
