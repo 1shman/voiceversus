@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Debate Room</title>
+</head>
+<body>
+    <h1>Debate Room</h1>
+    <div class="left">
+        <p class="left-summary" id="left-summary"></p>
+    </div>
+    <div class="main">
+        <ul class="message-container" id="message-container">
+        </ul>
+        <form class="message-form" id="message-form">
+            <input type="text" name="message" id="message-input" class="message-input">
+            <button type="submit" class="send-button">
+                send
+            </button>
+        </form>
+        <!-- <i class="fa fa-microphone" id="icon-record-audio" onclick="recordAudio()" style="cursor: pointer;"></i> -->
+    </div>
+    <div class="right">
+        <p class="right-summary" id="right-summary"></p>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="message.js"></script>
+</body>
+</html>
