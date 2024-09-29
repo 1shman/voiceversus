@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debate Room</title>
+</head>
+<body>
+    <h1>Debate Room</h1>
+    <div class="main">
+        <ul class="message-container" id="message-container">
+        </ul>
+        <form class="audio-form" id="audio-form">
+            <input type="text" name="message" id="message-input" class="message-input">
+            <button type="submit" class="send-button">
+                send
+            </button>
+        </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
