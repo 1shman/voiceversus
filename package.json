@@ -1,0 +1,14 @@
+{
+  "name": "voiceversus",
+  "version": "1.0.0",
+  "description": "**VoiceVersus** is an online debating platform where users engage in real-time debates through speech, with speech-to-text functionality. VoiceVersus allows for debates with speech transcriptions and summaries, helping users communicate and share their arguments more effectively.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "--yes"
+  ]
+}
