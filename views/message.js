@@ -1,13 +1,13 @@
-const fs = require('fs');
-const Groq = require('groq-sdk');
+// const fs = require('fs');
+// const Groq = require('groq-sdk');
 
 const socket = io();
-const groq = new Groq();
+// const groq = new Groq();
 
 // TODO: Put appropriate elements here
 const messageContainer = document.getElementById('message-container');
 const audioForm = document.getElementById('audio-form');
-const audioPath = document.getElementById('message');
+const audioPath = document.getElementById('message-input');
 
 
 audioForm.addEventListener('submit', (e) => {
